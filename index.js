@@ -51,7 +51,7 @@ client.on('ready', () => {
         const responseKeywords = [
             'ممكن تبعت كتاب', 'ممكن كتب', 'ممكن كتاب', 'ممكن الكتب',
             'ينفع تعبت كتاب', 'ابعت كتاب', 'ابعت كتب',
-            'المواد التي ندرسها', 'مواد الكلية'
+            'المواد التي ندرسها', 'مواد الكلية', 'إبعتلي الكتب'
         ];
 
         if (responseKeywords.some(keyword => userMessage.includes(keyword))) {
